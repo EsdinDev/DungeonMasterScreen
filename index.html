@@ -12,15 +12,29 @@
     </head>
     <body>
         <nav class="nav nav-tabs nav-stacked">
-            <a class="nav-link active" href="#">Adventuring</a>
-            <a class="nav-link" href="#">Conditons</a>
-            <a class="nav-link" href="#">Combat</a>
-            <a class="nav-link" href="#">Party</a>
-            <a class="nav-link disabled" href="#">Info for DMs</a>
+            <a class="nav-link active" href="#adventuringContent" data-toggle="tab">Adventuring</a>
+            <a class="nav-link" href="#conditionsContent" data-toggle="tab">Conditons</a>
+            <a class="nav-link" href="#combatContent" data-toggle="tab">Combat</a>
+            <a class="nav-link" href="#partyContent" data-toggle="tab">Party</a>
+            <a class="nav-link disabled" href="#infoContent" data-toggle="tab">Info for DMs</a>
         </nav>
-
-        <div id="adventuring-content" class="p-5">
-            <object class="full_body" type="text/html" data="content/adventuring.html" ></object>
+        
+        <div class="tab-content bodyContent">
+            <div id="adventuringContent" class="tab-pane fade show active p-5">
+                <object class="fullBody" type="text/html" data="content/adventuring.html" ></object>
+            </div>
+            <div id="conditionsContent" class="tab-pane fade p-5">
+                <!--<object class="fullBody" type="text/html" data="content/adventuring.html" ></object>-->
+            </div>
+            <div id="combatContent" class="tab-pane fade p-5">
+                <!--<object class="fullBody" type="text/html" data="content/adventuring.html" ></object>-->
+            </div>
+            <div id="partyContent" class="tab-pane fade p-5">
+                <!--<object class="fullBody" type="text/html" data="content/adventuring.html" ></object>-->
+            </div>
+            <div id="infoContent" class="tab-pane fade p-5">
+                <!--<object class="fullBody" type="text/html" data="content/adventuring.html" ></object>-->
+            </div>
         </div>
 
         <!-- Optional JavaScript -->

@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Adventuring</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Own CSS -->
+        <link rel="stylesheet" href="css/own.css">
+    </head>
+    <body>
+        <h1>Adventuring</h1>
+        <hr>
+        <div class="row advCont" style="margin-left: 0px; margin-right: 0px;">
+            <div class="col-12">
+                <h2>Tiradas de habilidad</h2>     
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th scope="col">Habilidades</th>
+                            <th scope="col">Referente a habiliadad</th>
+                            <th scope="col">Usar en tirada de salvación para</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Fuerza</td>
+                            <td>Atletismo</td>
+                            <td>Realizar una fuerza contraria</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Destreza</td>
+                            <td>Acrobacias, Juego de manos, Sigilo</td>
+                            <td>Esquivar</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Constitución</td>
+                            <td>N/A</td>
+                            <td>Enfermedad, veneno y otros efectos que afectan a la salud.</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Inteligencia</td>
+                            <td>Conocimiento arcano, historia, Investigación, Naturaleza, Religión</td>
+                            <td>Asalto mental que se pueda evitar con Inteligencia (p.e. Ilusiones)</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Sabiduria</td>
+                            <td>Trato con animales, Perspicacia, Medicina, Percepción, Supervivencia</td>
+                            <td>Asalto mental que se pueda evitar con Sabiduría (p.e. Encantado)</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Carisma</td>
+                            <td>Engaño, Intimidación, Interpretación, Persusion</td>
+                            <td>Poseido, confusión o cambio de planos</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row advCont" style="margin-left: 0px; margin-right: 0px;">
+            <div class="col-4">
+                <h2>Comprovaciónes de dificultad</h2>
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Trivial</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Facil</td>
+                            <td>10</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Medio</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Dificil</td>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Muy dificil</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Casi imposible</td>
+                            <td>30</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-8">
+                <h2>Descanso</h2>
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Efecto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Descanso corto</td>
+                            <td>Un breve descanso es un período de inactividad, de al menos 1 hora de duración, durante el cual un personaje no hace nada más agotador que comer, beber, leer y atender las heridas. Un personaje puede gastar uno o más Dados de golpe al final de un breve descanso, hasta el número máximo de Dados de golpe del personaje.</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Dados de golpe</td>
+                            <td>Un personaje puede gastar uno o más Dados de golpe al final de un breve descanso. Por cada dado de golpe gastado de esta manera, el jugador tira el dado y le añade el modificador de Constitución del personaje. El personaje recupera puntos de golpe iguales al total (mínimo de 0). El jugador puede decidir gastar un dado de golpe adicional después de cada tirada. Un personaje recupera algunos dados de golpe gastados al finalizar un descanso prolongado, como se explica a continuación.</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Descanso largo</td>
+                            <td>Un descanso prolongado es un período de tiempo de inactividad prolongado, de al menos 8 horas de duración, durante el cual un personaje duerme durante al menos 6 horas y no realiza más de 2 horas de actividad ligera, como leer, hablar, comer o hacer guardia. Si el resto es interrumpido por un período de actividad intensa (al menos 1 hora de caminata, lucha, lanzamiento de hechizos o actividad de aventuras similar) los personajes deben comenzar el resto de nuevo para obtener algún beneficio de ello.</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Beneficios del descanso largo</td>
+                            <td>Al final de un largo descanso, un personaje recupera todos los puntos de vida perdidos. El personaje también recupera los Dados de Golpe gastados, hasta un número de dados igual a la mitad del número total de dados del personaje. Recuperas al menos 1 dado de golpe cuando terminas un descanso prolongado. Un personaje no puede beneficiarse de más de un descanso prolongado en un período de 24 horas, y un personaje debe tener al menos 1 punto de golpe al comienzo del resto para obtener sus beneficios.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row advCont" style="margin-left: 0px; margin-right: 0px;">
+            <div class="col-12">
+                <h2>Entorno</h2>
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Tipo</th>
+                            <th>Efecto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Caida</td>
+                            <td>1d6 de daño contundente por cada 10 pies de caida (maximo 20d6). Derribado si hay daño.</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Aogado</td>
+                            <td>Los minutos que se pueden pasar debajo del agua son igual a 1 + modificador de CONS (Minimo 30 segundos). En combate la asfixia dura un numero de rondas igual a el modificador de CONS (Minimo de 1 ronda). Al siguient turno el personaje es despojado de todos sus puntos de vida y muere, y no puede ser estabilizado hasta que pueda respirar de nuevo.</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Ligeramente obscurecido</td>
+                            <td>Desventajas en las tiradas de Percepción que dependan de la visión.</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Muy obscurecido</td>
+                            <td>El jugador esta cegado, condición que le impide ver nada dentro del area.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row advCont" style="margin-left: 0px; margin-right: 0px;">
+            <div class="col-12">
+                <h2>Trampas y salvaciones</h2>
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Peligro de la trampa</th>
+                            <th>Salvación DC</th>
+                            <th>Bonificación de ataque</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Retrasar</td>
+                            <td>10 - 11</td>
+                            <td>+3 a +5</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Peligrosa</td>
+                            <td>12 - 15</td>
+                            <td>+6 a +8</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Mortal</td>
+                            <td>16 - 20</td>
+                            <td>+9 a +12</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row advCont" style="margin-left: 0px; margin-right: 0px;">
+            <div class="col-12">
+                <h2>Velocidad de viaje</h2>
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Velocidad</th>
+                            <th>Minuto</th>
+                            <th>Hora</th>
+                            <th>Dia</th>
+                            <th>Efecto</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">Rapido</td>
+                            <td>400 pies</td>
+                            <td>4 millas</td>
+                            <td>30 millas</td>
+                            <td>-5 a la Parcepción pasiva</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Normal</td>
+                            <td>300 pies</td>
+                            <td>3 millas</td>
+                            <td>24 millas</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td scope="row">Lento</td>
+                            <td>200 pies</td>
+                            <td>2 millas</td>
+                            <td>18 millas</td>
+                            <td>Se puede usar sigilo</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row advCont" style="margin-left: 0px; margin-right: 0px;">
+            <div class="col-12">
+                <h2>Daño por serveridad y nivel</h2>
+                <table class="table table-striped table-bordered">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Nivel</th>
+                            <th>Ligero</th>
+                            <th>Peligroso</th>
+                            <th>Mortal</th>
+                            <th>Ejemplo (Ligero - Mortal)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td scope="row">1 a 4</td>
+                            <td>1d10</td>
+                            <td>2d10</td>
+                            <td>4d10</td>
+                            <td>Quemado por ascuas - Caer en una piscina de acido</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">6 a 10</td>
+                            <td>2d10</td>
+                            <td>4d10</td>
+                            <td>10d10</td>
+                            <td>Golpado por un rayo - Aplastado por muros compresores</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">11 a 16</td>
+                            <td>4d10</td>
+                            <td>10d10</td>
+                            <td>18d10</td>
+                            <td>Golpado por los desechos de un tunel colapsando - Caer a una piscina de lava</td>
+                        </tr>
+                        <tr>
+                            <td scope="row">17 a 20</td>
+                            <td>10d10</td>
+                            <td>18d10</td>
+                            <td>24d10</td>
+                            <td>Cortado por espadas giratorias - Aplastado por las mandibulas de una criatura extraordinaria</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
